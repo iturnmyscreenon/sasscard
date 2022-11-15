@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #0e0e0e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .card {
+    height: 500px;
+    width: 300px;
+    background-color: #8f2626;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5%;
+
+    img {
+      height: 150px;
+      width: 200px;
+      border-radius: 5%;
+    }
+
+    .card-head {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: #fff;
+      .card-info {
+        h1 {
+          font-size: 1.5rem;
+        }
+        h2 {
+          font-size: 1rem;
+          color: rgb(224, 224, 224);
+        }
+      }
+    }
+    .playlist-navigation {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 90%;
+      height: 100px;
+
+      .progress-bar {
+        position: relative;
+        height: 1px;
+        width: 100%;
+        background-color: rgb(224, 224, 224);
+        border-radius: 10%;
+        margin-bottom: 5px;
+
+        .progress {
+          position: absolute;
+          height: 6px;
+          width: 6px;
+          transform: translateY(-50%);
+          background-color: #fff;
+          border-radius: 50%;
+        }
+      }
+      .music-timestamps {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+        font-size: 0.8rem;
+      }
+
+      .navigation-menu {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        img {
+          height: 24px;
+          width: 24px;
+        }
+        .jouer {
+          height: 64px;
+          width: 64px;
+        }
+      }
+    }
+  }
+}
