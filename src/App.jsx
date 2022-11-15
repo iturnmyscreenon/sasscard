@@ -38,3 +38,4 @@ function App() {
     </section>
   );
 }
+export default App;
