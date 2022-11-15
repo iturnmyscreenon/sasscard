@@ -31,12 +31,4 @@ function App() {
           <div className="navigation-menu">
             <img src={backward} alt="backward" />
           <img className="jouer" src={jouer}></img>
-            <img src={forward} alt="forward" />
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-export default App;
+            <img src={forward} alt="forward" />g
