@@ -31,4 +31,10 @@ function App() {
           <div className="navigation-menu">
             <img src={backward} alt="backward" />
           <img className="jouer" src={jouer}></img>
-            <img src={forward} alt="forward" />g
+            <img src={forward} alt="forward" />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
